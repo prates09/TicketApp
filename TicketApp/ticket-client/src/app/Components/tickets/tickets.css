@@ -1,0 +1,86 @@
+.tTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 12px;
+  background: #fff;
+
+ 
+  outline: 2px solid #7a7a7a;
+  outline-offset: 0;
+
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tTable th,
+.tTable td {
+ 
+  border: 1.5px solid #9a9a9a;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.tTable th {
+  background-color: #e9f1ff;
+  color: #0f172a;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.tTable tbody tr:nth-child(even) {
+  background-color: #fcfcff;
+}
+
+.tTable tbody tr:hover {
+  background-color: #f3f7ff;
+}
+
+.tTable td:first-child {
+  text-align: center;
+  font-weight: 700;
+  width: 60px;
+}
+
+.tTable td:nth-child(4),
+.tTable td:nth-child(6) {
+  white-space: nowrap;
+}
+
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+
+.badge.sev.high {
+  background: #fee2e2;
+  color: #b91c1c;
+  border-color: #fecaca;
+}
+
+.badge.sev.medium {
+  background: #ffedd5;
+  color: #c2410c;
+  border-color: #fed7aa;
+}
+
+
+.badge.stat.open {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-color: #bfdbfe;
+}
+
+.badge.stat.in-progress {
+  background: #ede9fe;
+  color: #6d28d9;
+  border-color: #ddd6fe;
+}
